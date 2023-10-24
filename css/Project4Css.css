@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.row {
+	display: block;
+	width:100%;
+}
+#SearchFunction {
+	width: 30%;
+	position:relative;
+	left:20px;
+	display:flex;
+	background-color: darkgray;
+	height:800px;
+	box-sizing: border-box;
+	float:left;
+}
+
+
+
+#footer {
+	background-color: red;
+}
+
+#cargrid {
+	width:70%;
+	display: flex;
+}
+
+.clearfix {
+  overflow: auto;
+}
