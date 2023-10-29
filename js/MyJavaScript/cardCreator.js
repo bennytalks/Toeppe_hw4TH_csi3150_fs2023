@@ -59,7 +59,7 @@ const carList = [
     price: 15000,
     color: "Gray",
     gasMileage: "29 mpg city, 40 mpg highway",
-	image:"media/images/passat,volkswagon.webp",
+	image:"images/passat,volkswagon.webp",
   },
   {
     year: 2020,
