@@ -8,7 +8,7 @@ const carList = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
-	image:"./media/images/Camry,toyota.webp",
+	image:"./images/Camry,toyota.webp",
   },
   {
     year: 2016,
@@ -18,7 +18,7 @@ const carList = [
     price: 14000,
     color: "White",
     gasMileage: "30 mpg city, 40 mpg highway",
-	image:"./media/images/civic,honda.webp",
+	image:"./images/civic,honda.webp",
   },
   {
     year: 2017,
@@ -28,7 +28,7 @@ const carList = [
     price: 16000,
     color: "Black",
     gasMileage: "28 mpg city, 38 mpg highway",
-	image:"./media/images/fusion,ford.webp",
+	image:"./images/fusion,ford.webp",
   },
   {
     year: 2019,
@@ -38,7 +38,7 @@ const carList = [
     price: 17000,
     color: "Blue",
     gasMileage: "27 mpg city, 36 mpg highway",
-	image:"./media/images/altima,nissan.jpg",
+	image:"./images/altima,nissan.jpg",
   },
   {
     year: 2015,
@@ -48,7 +48,7 @@ const carList = [
     price: 12000,
     color: "Red",
     gasMileage: "25 mpg city, 37 mpg highway",
-	image:"./media/images/malibu,chevrolet.jpg",
+	image:"./images/malibu,chevrolet.jpg",
   },
   // Additional entries:
   {
@@ -69,7 +69,7 @@ const carList = [
     price: 16000,
     color: "Silver",
     gasMileage: "30 mpg city, 41 mpg highway",
-	image:"./media/images/elantra, hyundai.webp",
+	image:"./images/elantra, hyundai.webp",
   },
   {
     year: 2014,
@@ -79,7 +79,7 @@ const carList = [
     price: 14000,
     color: "Green",
     gasMileage: "22 mpg city, 30 mpg highway",
-	image:"./media/images/outback,subaru.webp",
+	image:"./images/outback,subaru.webp",
   },
   {
     year: 2017,
@@ -89,7 +89,7 @@ const carList = [
     price: 19000,
     color: "Blue",
     gasMileage: "24 mpg city, 31 mpg highway",
-	image:"./media/images/modelS,tesla.webp",
+	image:"./images/modelS,tesla.webp",
   },
   {
     year: 2018,
@@ -99,7 +99,7 @@ const carList = [
     price: 17000,
     color: "White",
     gasMileage: "22 mpg city, 29 mpg highway",
-	image:"./media/images/sorrento,kia.webp",
+	image:"./images/sorrento,kia.webp",
   },
   // Five more entries:
   {
@@ -110,7 +110,7 @@ const carList = [
     price: 24000,
     color: "Black",
     gasMileage: "19 mpg city, 30 mpg highway",
-	image:"./media/images/challenger,dodge.webp",
+	image:"./images/challenger,dodge.webp",
   },
   {
     year: 2017,
@@ -120,7 +120,7 @@ const carList = [
     price: 32000,
     color: "Red",
     gasMileage: "19 mpg city, 27 mpg highway",
-	image:"./media/images/XT5, cadillac.jpg",
+	image:"./images/XT5, cadillac.jpg",
   },
   {
     year: 2018,
@@ -130,7 +130,7 @@ const carList = [
     price: 38000,
     color: "Blue",
     gasMileage: "18 mpg city, 23 mpg highway",
-	image:"./media/images/F-pace,jaguar.webp",
+	image:"./images/F-pace,jaguar.webp",
   },
   {
     year: 2019,
@@ -140,7 +140,7 @@ const carList = [
     price: 55000,
     color: "Black",
     gasMileage: "Electric (370 miles per charge)",
-	image:"./media/images/modelS,tesla.webp",
+	image:"./images/modelS,tesla.webp",
   },
   {
     year: 2020,
@@ -150,7 +150,7 @@ const carList = [
     price: 68000,
     color: "White",
     gasMileage: "20 mpg city, 26 mpg highway",
-	image:"./media/images/cayenne,porsche.webp",
+	image:"./images/cayenne,porsche.webp",
   },
   {
     year: 2017,
@@ -160,7 +160,7 @@ const carList = [
     price: 26000,
     color: "White",
     gasMileage: "21 mpg city, 30 mpg highway",
-	image:"./media/images/modelS,tesla.webp",
+	image:"./images/modelS,tesla.webp",
   },
   {
     year: 2016,
@@ -170,7 +170,7 @@ const carList = [
     price: 27000,
     color: "Black",
     gasMileage: "23 mpg city, 34 mpg highway",
-	image:"./media/images/5,BMW.webp",
+	image:"./images/5,BMW.webp",
   },
 ];
 
