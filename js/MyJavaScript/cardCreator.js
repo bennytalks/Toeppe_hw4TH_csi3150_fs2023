@@ -213,7 +213,7 @@ function updateCarCards(query, colorQuery, priceFilter, yearFilter, mileageFilte
         const hasQuery = carInfo.toLowerCase().includes(query.toLowerCase());
         const hasColor = colorPattern.test(carInfo) && carInfo.toLowerCase().includes(colorQuery.toLowerCase());
 
-        // Extract price, year, and mileage information from carInfo
+        // Extract  information from carInfo
         const priceMatch = carInfo.match(/Price: \$([\d,]+)/);
         const yearMatch = carInfo.match(/Year: (\d{4})/);
         const mileageMatch = carInfo.match(/Mileage: (\d+)/);
@@ -223,7 +223,7 @@ function updateCarCards(query, colorQuery, priceFilter, yearFilter, mileageFilte
         const yearPass = !yearFilter || (yearMatch && parseInt(yearMatch[1]) === yearFilter); // Specific year
         const mileagePass = !mileageFilter || (mileageMatch && parseInt(mileageMatch[1].replace(/,/g, '')) < mileageFilter);
 
-        // Show the card only if it matches all criteria
+        // Show the card all criteria
         card.style.display = hasQuery && hasColor && pricePass && yearPass && mileagePass ? 'block' : 'none';
     });
 }
